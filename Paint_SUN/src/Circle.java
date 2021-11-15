@@ -1,11 +1,7 @@
 import java.awt.*;
 
 public class Circle extends Ellipse{
-    /*
-    public Circle(int i){
-        super(i);
-    }
-    */
+   
     public Circle(int x, Color color) {
         super(x, x, color);
     }
