@@ -17,6 +17,7 @@ public class Square extends Rectangle{
         super.setLength(width);
         super.setWidth(width);
     }
+    //Set each side of the square to be equal to widthb
     @Override
     public void setBoundingBox(int widthb, int heightb){
     length = width = widthb;
